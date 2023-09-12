@@ -4,3 +4,25 @@
     border: 0;
     box-sizing: border-box; 
   }
+  body {
+    background: rgb(243,205,5);
+    background: radial-gradient(circle, rgba(243,205,5,0.6671043417366946) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="rgba(243,205,5,0.7)", endColorstr="#ffffff", GradientType=1);
+    margin: 0; /* Para eliminar los márgenes predeterminados del body */
+    padding: 0; /* Para eliminar el relleno predeterminado del body */
+    font-family: 'Roboto', sans-serif; /* Establece una fuente de texto predeterminada */
+  }
+  
+header {
+    width: 100vw;
+    height: 20vh;
+    background: rgb(244,159,5);
+    background: radial-gradient(circle, rgba(244,159,5,1) 0%, rgba(54,104,141,1) 100%);
+}
+#logoHeader{
+    width: 220px;
+    height: 200px;
+}
+.titulo{
+    color: #46551A;
+}
