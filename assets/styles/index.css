@@ -31,14 +31,37 @@ header {
     width: 100vw
 }
 form {
-    border: 2px solid #232611; /* Agrega un borde de 2 píxeles sólido con el color #232611 */
+    border: 2px solid #428007; /* Agrega un borde de 2 píxeles sólido con el color #232611 */
     border-radius: 10px;
     padding: 20px; /* Agrega un relleno para dar espacio al contenido dentro del formulario */
-    width: 650px;
+    width: 580px;
   }
-  
+
 .btn.btn-primary {
     background-color: #46551A !important;
+    border-color: #428007;
     color: white; /* Cambiar el color del texto a blanco para que sea legible en el nuevo fondo */
   }
+.letrasFormulario{
+    color: #46551A;
+    font-size: 20px;
+}
+.btn.btn-primary:hover{
+    background-color: #428007 !important;
+}
+/* Estilos para todos los campos de entrada en el formulario */
+form input::placeholder {
+    color: #428007;
+    font-style: italic;
+    
+    /* Otros estilos según tus preferencias */
+  }
   
+#reseteoContrasena{
+    color: #46551A;
+    font-size: 20px;
+}
+#reseteoContrasena::hover{
+    color:#428007;
+    font-size: 20px;
+}
